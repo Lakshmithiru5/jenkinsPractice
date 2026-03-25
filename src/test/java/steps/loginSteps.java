@@ -21,7 +21,8 @@ public class loginSteps {
 
 	    @Then("user should see dashboard")
 	    public void verifyDashboard() {
-	        System.out.println("Dashboard displayed");
+	    	System.out.println("Dashboard displayed");
+	    	System.out.println("Dashboard displayed");
 	    }
 	}
 
