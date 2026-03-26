@@ -20,3 +20,23 @@ Feature: Banking Login
     When user enters username and password
     Then user should see dashboard
 
+
+# Given Navigating to the webpage
+# And Enter item name as "<items>"
+ # When Click Search
+# Then Show Results
+
+# Examples:
+# |	username	|	password	|
+# |	mobile		|	bgcbg		|
+# |	tv			|	jhgvkjhgv	|
+# |	books		|	jhygfvjhv	| 
+
+
+
+
+  Scenario: Valid login
+    Given user is on login page
+    When user enters username and password
+    Then user should see dashboard
+
